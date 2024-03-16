@@ -1,3 +1,5 @@
+Задание: Написать программу, которая принимает на вход два целых числа (a и b) и совершает с ними следующие действия, сравнивает:
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -15,3 +17,148 @@ document.getElementById("demo").innerHTML = "Is 20 less than 5? " + result;
 
 </body>
 </html>
+_______________________________________________________________________________________-
+JavaScript String Operators
+Note that strings are compared alphabetically:
+
+Is 20 less than 5? true
+________________________________________________________________________________________
+Задание: Написать программу, которая принимает на вход два целых числа (a и b) и совершает с ними следующие действия:
+- сравнивает эти два числа и возвращает результат сравнения путем вывода в консоль одного из вариантов: "a > b", "a < b" или "a = b";
+- совершает с этими числами операции сложения, вычитания, деления и умножения и результат выводит в консоль.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arithmetic</h2>
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 20 + 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+____________________________________________________________________________________________
+JavaScript Arithmetic
+A typical arithmetic operation takes two numbers and produces a new number.
+
+25
+____________________________________________________________________________________________
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arithmetic</h2>
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 20 - 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+____________________________________________________________________________________________
+JavaScript Arithmetic
+A typical arithmetic operation takes two numbers and produces a new number.
+
+15
+____________________________________________________________________________________________
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arithmetic</h2>
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 20 / 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+____________________________________________________________________________________________
+JavaScript Arithmetic
+A typical arithmetic operation takes two numbers and produces a new number.
+
+4
+____________________________________________________________________________________________
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arithmetic</h2>
+<p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 20 * 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+_____________________________________________________________________________________________
+JavaScript Arithmetic
+A typical arithmetic operation takes two numbers and produces a new number.
+
+100
+______________________________________________________________________________________________
+2. Написать программу, которая принимает на вход две строки (a и b) и сравнивает их. В результате сравнения в консоль должно быть выведено одно из сообщений: "Строки неидентичны" или "Строки идентичны"
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String Operators</h1>
+
+<p>All conditional operators can be used on both numbers and strings.</p>
+
+<p id="demo"></p>
+
+<script>
+let text1 = "A";
+let text2 = "B";
+let result = text1 < text2;
+document.getElementById("demo").innerHTML = "Is A less than B? " + result;
+</script>
+
+</body>
+</html>
+_________________________________________________________________________________________________
+JavaScript String Operators
+All conditional operators can be used on both numbers and strings.
+
+Is A less than B? true
+__________________________________________________________________________________________________
+
+3. Задан массив целых чисел: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. Необходимо написать программу, которая выведет в консоль все чётные числа: 
+"user strike";
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let arr2 = []
+console.log(arr.length);
+for (let i = 0; i <= arr.length-1; i++) {
+    if (arr[i] % 2 === 0) {
+    arr2.push(arr[i]);
+    )
+}
+console.log(arr2);
+document.write(arr2);
+
+/*
+{}
+[]
+
+*/
+_______________________________________________________________________________________________
+(5) {2, 4, 6, 8, 10}
